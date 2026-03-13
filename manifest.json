@@ -8,5 +8,5 @@
     "author": "custom",
     "version": "1.0.0",
     "homePage": "https://github.com/",
-    "auto_update": false
+    "auto_update": true
 }
