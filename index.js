@@ -115,7 +115,7 @@ function buildGroupCard(g, gi, pn) {
 
         // override button: cycles null → true → false → null
         let ovrLabel, ovrCls;
-        if (ovr === null)      { ovrLabel = '연동';   ovrCls = 'ptm-tovr-lock'; }
+        if (ovr === null)      { ovrLabel = '고정';   ovrCls = 'ptm-tovr-lock'; }
         else if (ovr === true) { ovrLabel = 'On';  ovrCls = 'ptm-tovr-on';  }
         else                   { ovrLabel = 'Off'; ovrCls = 'ptm-tovr-off'; }
 
